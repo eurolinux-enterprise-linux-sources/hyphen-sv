@@ -1,7 +1,7 @@
 Name: hyphen-sv
 Summary: Swedish hyphenation rules
 Version: 1.00.1
-Release: 10%{?dist}
+Release: 9%{?dist}
 Source: http://extensions.services.openoffice.org/files/1966/4/hyph_sv_SE.oxt
 Group: Applications/Text
 URL: http://extensions.services.openoffice.org/node/1968
@@ -50,9 +50,6 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/hyphen/*
 
 %changelog
-* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.00.1-10
-- Mass rebuild 2013-12-27
-
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 1.00.1-9
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
